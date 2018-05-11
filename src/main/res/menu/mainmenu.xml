@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:title="Home">
+    </item>
+    <item
+        android:id="@+id/menu_login"
+        android:title="Login">
+    </item>
+    <item
+        android:id="@+id/menu_catalog"
+        android:title="Catalog">
+    </item>
+    <item android:id="@+id/menu_about_company"
+        android:title="About TiT">
+        android:orderInCategory="4"
+    </item>
+
+
+    <group
+        android:id="@+id/group4"
+        android:visible="false">
+        <item
+            android:id="@+id/menu_about_missions_and_tagrets"
+            android:orderInCategory="1"
+            android:title="Missions and Targets"></item>
+        <item
+            android:id="@+id/menu_about_achivments"
+            android:orderInCategory="2"
+            android:title="Achivments"></item>
+        <item
+            android:id="@+id/menu_menu_partners"
+            android:orderInCategory="3"
+            android:title="Partners"></item>
+        <item
+            android:id="@+id/manu_about_other"
+            android:orderInCategory="4"
+            android:title="Other"></item>
+    </group>
+
+
+    <group
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/menu_copy"
+            android:orderInCategory="1"
+            android:title="copy">
+        </item>
+        <item
+            android:id="@+id/menu_paste"
+            android:orderInCategory="2"
+            android:title="paste">
+        </item>
+        <item
+            android:id="@+id/menu_exit"
+            android:orderInCategory="4"
+            android:title="exit">
+        </item>
+    </group>
+</menu>
